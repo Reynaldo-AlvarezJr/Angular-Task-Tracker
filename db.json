@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Doctors Appointment",
+      "day": "June 16th at 10:40am",
+      "reminder": true
+    },
+    {
+      "id": 2,
+      "text": "Free Master Class",
+      "day": "June 22nd at 7:30pm",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "text": "Taz Vet Appointment",
+      "day": "June 23rd at 12:00pm",
+      "reminder": false
+    }
+  ]
+}

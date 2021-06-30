@@ -1,0 +1,13 @@
+<!-- this how you embed a component to another component -->
+<!-- Here we are embeding the addTask comp. to the task comp. -->
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
+
+<app-task-item
+  *ngFor="let task of tasks"
+  [task]="task"
+  (onDeleteTask)="deleteTask(task)"
+  (onToggleReminder)="toggleReminder(task)"
+
+></app-task-item>
+
+
